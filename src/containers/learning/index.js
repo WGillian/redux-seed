@@ -5,7 +5,6 @@ import { beginLearning } from 'redux/actions/learning'
 
 class LearningContainer extends Component {
   render() {
-    console.log(this.props)
     return (
       <div>
         <Learning isLearning={this.props.isLearning} beginLearning={() => this.props.dispatch(beginLearning())} />

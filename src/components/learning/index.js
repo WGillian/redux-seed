@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Learning extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.beginLearning()
   }
   render() {
